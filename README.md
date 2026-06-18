@@ -1,3 +1,12 @@
+## Features Implemented
+
+- Added a `Review` model to connect `Customer` and `Item`
+- Added `back_populates` relationships between all related models
+- Added an `association_proxy` so a customer can access reviewed items
+- Added Marshmallow schemas for `Customer`, `Item`, and `Review`
+- Prevented circular recursion during serialization with nested excludes
+- Verified all functionality with pytest
+
 # Lab: Flask-SQLAlchemy Serialization
 
 ## Scenario
